@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sass/style.css">
+    <!--font awesome-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <title>Home - Guava Restuarent</title>
+</head>
+<body>
+    <!-------------     NAVBAR       ------------>
+            <div class="navbar container">
+                <div class="logo">
+                   <i class="fas fa-hamburger" class="logo-icon"></i>
+                    <span class="logo-name">Guava <span>Restuarent</span></span>
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="food.html">food</a>
+                        </li>
+                        <li>
+                            <a href="images.html">images</a>
+                        </li>
+                        <li>
+                            <a href="delivery.html">delivery</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">contact</a>
+                        </li>
+                    </ul>                
+                </div>
+                <i class="fa fa-bars humburger"></i>
+            </div>
+
+        <!----------     SHOWCASE     =============-->
+            <div class="showcase container">
+                <div class="text">
+                    <div class="right">
+                        <h1>we prepare a delicous food, with a wondorful smell and nice taste.</h1>
+                        <p>we make big discount for the holly month of ramadaan orem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, consequatur sunt voluptas possimus quod exercitationem placeat est dicta fugit accusantium.</p>
+                        <h4>buy 2 get one free 50% off.</h4>
+                        <a href="#" class="order-now">order now</a>
+                    </div>
+                    <div class="left">
+                        <img src="./img/pizza.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+    <footer>
+        <div>
+            <ul>
+                <h2>contact us</h2>
+                <li>
+                    <span class="icon"><i class="fa fa-mobile-alt"></i></span>
+                    <span class="text">+3 345 655 656</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-envelope"></i></span>
+                    <span class="text">ahmed@gmail.com</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-map-marker"></i></span>
+                    <span class="text">capetown,lavenderHill</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-globe"></i></span>
+                    <span class="text">www.google.com/myport</span>
+                </li>
+            </ul>
+            <ul>
+                <h2>follow us</h2>
+                <li>
+                    <span class="icon"><i class="fa fa-facebook"></i></span>
+                    <span class="text">facebook</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-linkedin"></i></span>
+                    <span class="text">linkedin</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-instagram"></i></span>
+                    <span class="text">instagram</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-whatsapp"></i></span>
+                    <span class="text">whatsapp</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-twitter"></i></span>
+                    <span class="text">ftwitter</span>
+                </li>
+            </ul>
+            <ul>
+                <h2>quick links</h2>
+                <li>home</li>
+                <li>most popular</li>
+                <li>delivery</li>
+                <li>fast food</li>
+            </ul>
+            <ul>
+                <h2>send massege</h2>
+                <li>
+                    <input type="text" id="text">
+                    <input type="submit" value="send">
+                </li>
+            </ul>
+        </div>
+        <div class="pp">
+            <p>createad by <a href="#">ahmed abdirahman</a> 2022</p>
+            <p>&copy;copRight Reserved</p>
+    
+        </div>
+    </footer>
+
+
+
+    <script src="https://kit.fontawesome.com/405f30ee9a.js" crossorigin="anonymous"></script>
+    <!------   js file        ------->
+    <script>
+        let menuBtn = document.querySelector('.humburger');
+        let navLinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click',function(){
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
